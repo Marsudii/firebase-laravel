@@ -1,0 +1,87 @@
+body {
+    background: #f3f4f6;
+    min-height: 100vh;
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 10px 0 #0001;
+    padding: 2rem;
+    max-width: 28rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label {
+    font-size: 0.98rem;
+    color: #4b5563;
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+}
+
+input[type="text"] {
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.9rem;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+    background: #f9fafb;
+    margin-bottom: 0.4rem;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #2563eb;
+    background: #fff;
+}
+
+button[type="submit"] {
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.7rem;
+    font-size: 1.08rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background 0.2s;
+}
+
+button[type="submit"]:hover {
+    background: #1e40af;
+}
+
+.card:last-child button[type="submit"] {
+    background: #16a34a;
+}
+
+.card:last-child button[type="submit"]:hover {
+    background: #166534;
+}
